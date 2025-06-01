@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aplikasi Gesture Jawaban</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Jawab Pertanyaan dengan Gestur 👍👎</h1>
+  <div class="question-box">
+    <p id="question">Klik tombol di bawah untuk memulai</p>
+    <button onclick="startApp()">Mulai Jawaban</button>
+  </div>
+
+  <div id="webcam-container"></div>
+  <div id="label-container"></div>
+  <p id="response"></p>
+
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
